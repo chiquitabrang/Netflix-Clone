@@ -1,0 +1,24 @@
+/* Header */
+
+.container {
+    margin: 0 20rem;
+    height: 100%;
+}
+
+.border-line {
+    max-width: 100vw;
+    height: 0.8rem;
+    /* position: absolute; */
+    background-color: rgba(35, 35, 35, 0.884);
+}
+
+#section-two {
+    max-width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #ffffff;
+    padding: 5rem 17rem;
+}
