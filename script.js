@@ -10,3 +10,7 @@ document.addEventListener('click', function(event) {
     dropdownContent.classList.remove('show');
   }
 });
+
+// Drop down menu on Nav section
+
+

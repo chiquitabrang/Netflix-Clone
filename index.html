@@ -22,17 +22,20 @@
             <nav class="header">
                 <img src="./Images/logo.png" alt="logo" class="logo">
                 <div class="nav-buttons">
-                    <div class="dropdown">
-                        <button type="menu" class="button-one">
-                            <i class="fa-solid fa-language"></i> English 
-                            <i class="fa-solid fa-caret-down">
-                            </i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">english</a>
-                            <a href="#">espanol</a>
+                    <label class="dropdown" for="languageSelect">
+                        <div class="button-one">
+                            <div class="button-text">
+                                <img src="./Images/translate-icon.svg" class="translate-icon dropdown-toggle" alt="Translate Icon" />
+                                English
+                                <img src="./Images/drop-down.svg" class="drop-down-icon dropdown-toggle" alt="Drop Down Icon" />
+                            </div>
+                            <select name="english" id="languageSelect">
+                                <option value="english">English</option>
+                                <option value="filipino">Filipino</option>
+                            </select>
                         </div>
-                    </div>
+                    </label>
+
                     <button type="button" class="button-two">Sign In</button>
                 </div>
             </nav>
@@ -201,6 +204,6 @@
         
     </footer>
 
-    <script src="index.js"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
