@@ -400,5 +400,9 @@ footer {
 }
 
 .footer-button {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.footer-width {
+    width: 11.5rem;
 }
