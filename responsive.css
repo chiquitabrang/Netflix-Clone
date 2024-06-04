@@ -1,0 +1,330 @@
+@media only screen and (max-width: 896px) {
+    #section-hero {
+        height: 35rem;
+        height: 85vh;
+    }
+    .container {
+        margin: auto;
+        height: auto;
+    }
+    .section-hero {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .header {
+        padding: 3rem 3rem;
+    }
+    .header .logo {
+        height: 2.5rem;
+    }
+    .nav-buttons {
+        gap: 0.8rem;
+    }
+    .button-one {
+        min-width: 5rem;
+        border-radius: 2px;
+    }
+    .translate-icon {
+        height: 1.5rem;
+    }
+    .drop-down-icon {
+        height: 1.5rem;
+    }
+    .button-two {
+        padding: 0.3rem 0.9rem;
+        border-radius: 2px;
+    }
+    /* Section Hero */
+    .section-hero {
+        margin: 8rem auto;
+    }
+    .section-hero h1 {
+        font-size: 3rem;
+        padding-bottom: 1.5rem;
+        font-weight: 600;
+    }
+    .section-hero h3 {
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    .section-hero p {
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    input[type="email"]::placeholder {
+        color: #faf9f6;
+    }
+    .buttons input {
+        width: 40%;
+        border-radius: 2px;
+    }
+    .buttons button {
+        padding: 0.5rem 1rem;
+        font-size: 2.5rem;
+    }
+    .buttons i {
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .border-line {
+        height: 0.5rem;
+    }
+    /* SECOND SECTION*/
+    #section-two {
+        flex-direction: column;
+        height: 120vh;
+        padding: 2rem 10rem;
+    }
+    .section-two {
+        padding-top: 4rem;
+        align-items: center;
+    }
+    .section-two h1 {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    .indent h1 {
+        padding-left: 0;
+    }
+    .section-two h3 {
+        font-size: 2rem;
+        padding-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+    }
+    .indent h3 {
+        padding-left: 0;
+    }
+    .section-two-img {
+        width: 80%;
+    }
+    .section-two-img img {
+        width: 100%;
+    }
+    .video-container {
+        max-width: 72%;
+        max-height: 72%;
+        top: 5%;
+        left: 14%;
+    }
+    .video-container video {
+        width: 100%;
+        height: 100%;
+    }
+    /* THIRD SECTION */
+    .section-gap {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        align-items: center;
+        height: 140vh !important;
+    }
+    .mobile-img {
+        height: 80%;
+        height: auto;
+    }
+    .section-three-img {
+        position: relative;
+    }
+    .separate-image {
+        max-width: 60%;
+        left: 20%;
+        top: 70%;
+    }
+    .section-three-img .section-two {
+        margin: 1rem 0;
+    }
+    .section-gap .section-two {
+        position: absolute;
+        top: 3rem;
+    }
+    /* Section  Four*/
+    #section-four {
+        display: inline-block;
+        padding: 2rem;
+    }
+    .section-four-container {
+        width: 100%;
+        padding: 5rem 10rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    /* Another Section */
+    .cartoon-kids {
+        padding-left: 0;
+        height: auto;
+        margin-top: 5rem;
+    }
+    .padding-two {
+        padding: 5rem 10rem;
+    }
+    .adjust-height {
+        height: 100vh !important;
+    }
+    /* FQA SECTION */
+    #fqa-section {
+        padding: 6rem 4rem;
+    }
+    .fqa-main-text {
+        font-size: 3rem;
+    }
+    .fqa {
+        font-size: 2rem;
+        padding: 2.3rem;
+    }
+    .fqa i {
+        font-size: 2rem;
+    }
+    /* FOOTER */
+    footer {
+        height: 90vh;
+        padding: 1rem 5rem;
+    }
+    .flex-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        margin: 0 auto;
+    }
+    #section-hero {
+        height: 140vh;
+    }
+    .header {
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .header .logo {
+        height: 3rem;
+    }
+    .nav-buttons {
+        gap: 1rem;
+    }
+    /* Section Hero */
+    .section-hero {
+        padding: 2rem 3rem;
+        text-align: center;
+    }
+    .section-hero h1 {
+        font-size: 2.5rem;
+    }
+    .section-hero h3 {
+        font-size: 1.5rem;
+    }
+    .section-hero p {
+        font-size: 1.5rem;
+    }
+    .section-hero .buttons {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    .buttons input {
+        width: 90%;
+    }
+    .buttons button {
+        width: 50%;
+        padding: 1.5rem 2rem;
+    }
+    /* SECOND SECTION*/
+    #section-two {
+        padding: 1rem 3rem;
+    }
+    .section-two-img {
+        width: 100%;
+        padding-top: 4rem;
+    }
+    .section-two h1 {
+        font-size: 2.5rem;
+    }
+    .section-two h3 {
+        font-size: 1.5rem;
+    }
+    /* THIRD SECTION */
+    .section-gap {
+        height: 100vh !important;
+    }
+    .indent h1 {
+        padding: 0 3rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .indent h3 {
+        padding: 0 3rem;
+    }
+    .separate-image {
+        max-width: 75%;
+        left: 15%;
+        top: 80%;
+    }
+    .boxshot {
+        height: 5rem;
+    }
+    .title-text {
+        font-size: 1.5rem;
+    }
+    .subtext {
+        font-size: 1.2rem;
+    }
+    .mobile-img {
+        margin-top: 10rem;
+    }
+    /* Section  Four*/
+    #section-four {
+        height: 40vh;
+    }
+    .section-four-container {
+        padding: 2rem 3rem;
+    }
+    .section-four-container h1 {
+        font-size: 2.5rem;
+    }
+    .section-four-container h3 {
+        font-size: 1.5rem;
+    }
+    /* Another Section */
+    .padding-two {
+        padding: 2rem 3rem;
+    }
+    .cartoon-kids {
+        width: 100%;
+        margin-top: 10rem;
+    }
+    /* FQA SECTION */
+    #fqa-section {
+        padding: 5rem 3rem;
+    }
+    .fqa-main-text {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .fqa {
+        padding: 2rem;
+    }
+    .fqa-subtext {
+        text-align: center;
+    }
+    .buttons {
+        display: inline-block;
+        text-align: center;
+    }
+    .buttons button {
+        width: 50%;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    .buttons i {
+        font-size: 2rem;
+    }
+    /* FOOTER */
+    footer {
+        padding: 1rem 3rem;
+    }
+    .nav-col .footer-nav {
+        gap: 1.5rem;
+    }
+}
