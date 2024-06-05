@@ -206,26 +206,29 @@ select {
 
 .video-container video {
     width: 100%;
+    object-fit: cover;
 }
 
 /* THIRD SECTION */
 .section-three-img {
     position: relative;
+    width: 100%;
 }
 
 .padding {
     display: flex;
+    
 }
 .mobile-img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .separate-image {
     position: absolute;
     top: 64%;
-    left: 28%;
+    left: 20%;
     height: auto;
-    width: 75%;
+    width: 60%;
     padding: 1rem 1.3rem;
     background-color: #000;
     border: 2px solid rgb(87, 86, 86);
@@ -246,11 +249,11 @@ select {
 }
 
 .indent h1 {
-    padding-left: 15rem;
+    /* padding-left: 15rem; */
 }
 
 .indent h3 {
-    padding-left: 15rem;
+    /* padding-left: 15rem; */
 }
 
 .title-text {
